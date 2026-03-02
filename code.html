@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13ec80",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#0a1410",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>body {
+    font-family: "Plus Jakarta Sans", sans-serif
+    }
+.islamic-pattern {
+    background-color: #0a1410;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAcd0v1Si_giNPtYXZFC5ebfb-G7eei4Kfzgc3cp3wk6WjBip7_FwolhOR8-8ohlYiCUFh3eKKJqD2pvj61vyvU4X_pjr0Q4P3fMnPhgLehFmd8J6agPEp-YGiX1SQJct_grITheRPYYVrgE2nOTrbvs9RYcA4oVQJ77g-O2PoVivzOnpP7xo0uN2S9VhC0I_b_fhxNX9N6I1VX58Ss8BPWY0DZ4V_dWbl_wstjKc83Ls4WbnEPcgQysb8kbTacI0g3YKD2NokXZe4);
+    background-attachment: fixed
+    }
+.glow-star {
+    filter: drop-shadow(0 0 5px #13ec80)
+    }</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display islamic-pattern">
+<div class="relative min-h-screen flex flex-col items-center justify-center p-4">
+<!-- Background Accents -->
+<div class="absolute top-10 left-10 text-primary/20 animate-pulse">
+<span class="material-symbols-outlined text-6xl glow-star">star</span>
+</div>
+<div class="absolute bottom-20 right-10 text-primary/20 animate-pulse">
+<span class="material-symbols-outlined text-4xl glow-star">star</span>
+</div>
+<div class="layout-container flex h-full grow flex-col w-full max-w-[480px]">
+<!-- Top Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/10 px-6 py-4 bg-background-dark/80 backdrop-blur-md rounded-t-xl">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-6">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-slate-100 text-lg font-bold leading-tight tracking-tight">Digital THR</h2>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center justify-center rounded-full h-10 w-10 bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="flex items-center justify-center rounded-full h-10 w-10 bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+</header>
+<!-- Main Card Container -->
+<main class="flex flex-col bg-slate-900/40 backdrop-blur-xl border-x border-b border-primary/10 rounded-b-xl overflow-hidden">
+<!-- Profile Section -->
+<div class="flex flex-col items-center pt-10 pb-6 px-4">
+<div class="relative">
+<div class="absolute -inset-1 bg-gradient-to-tr from-primary to-emerald-500 rounded-full blur opacity-30"></div>
+<div class="relative bg-center bg-no-repeat aspect-square bg-cover rounded-full border-4 border-slate-800 size-32" data-alt="Stylish teenage boy in modern urban outfit" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7aIBlWKSovG6wX50_9cK1-xLsYzcJc1IxHfNVI4LYEh7ENCqhjHVA5jhu2XLEc63BdMRAbSrl-cqQ-N3u-WYxanqI07ddXGShE_0p6dIyKB42SpYAvl-983MwZwb-DYYp4RvOlk-KcovqYMYEL8mV-Dw-BIkY4BrWdV71iAx69Qv3aAnpdpEJb1v9QRI0yh6hC1k4uwMj7sexfdbXVSYcaWc1iFY7GLm86uXURvRFPKSdap9MVcTTZE7TlwDPM0TKaIOwvuc7MRQ");'>
+</div>
+<div class="absolute bottom-0 right-0 bg-primary p-1.5 rounded-full border-4 border-slate-900 shadow-lg">
+<span class="material-symbols-outlined text-slate-900 text-sm font-bold">verified</span>
+</div>
+</div>
+<div class="mt-4 text-center">
+<h1 class="text-slate-100 text-3xl font-extrabold tracking-tight">Bima Arya</h1>
+<p class="text-primary font-medium tracking-wide text-sm uppercase mt-1">Class of 2024 • High Schooler</p>
+</div>
+</div>
+<!-- Stats Section -->
+<div class="px-6 py-4">
+<div class="flex flex-col gap-4 rounded-2xl p-6 bg-gradient-to-br from-emerald-950 to-slate-900 border border-primary/20 relative overflow-hidden group">
+<!-- Decorative Islamic Pattern Overlay -->
+<div class="absolute inset-0 opacity-5 pointer-events-none bg-repeat size-full" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPGF-oZ4lf65SvDwJs2u4G5q9eKpI0dALoPYaB4Ko363Jjw8Cq8zxhuxF22OUXpPSBRql_vq_4pwLGqMiv0psg2DPgbIEzFVQrV1llf-I87qvqOet_MrU6a9c5fqkY4zH3KSj2TFHbghLzeWH75XkPuI76GimMCXqBh5SwxO6zxfiuPzjSY1I5lvMhOn-0lwGkRcIc4NiMcuMLzJhSNNWnuuh2Ix_nWbTYntgqhveXslq5Z_g4X7NAEf9_FMH78QKwo_ThFZTpyhQ');"></div>
+<div class="flex justify-between items-start relative z-10">
+<div>
+<p class="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">THR Terkumpul</p>
+<div class="flex items-baseline gap-2">
+<span class="text-slate-400 text-lg font-medium">Rp</span>
+<p class="text-slate-100 text-4xl font-black leading-none tracking-tighter">750.000</p>
+</div>
+</div>
+<div class="bg-primary/20 p-2 rounded-lg text-primary">
+<span class="material-symbols-outlined text-3xl">account_balance_wallet</span>
+</div>
+</div>
+<div class="flex items-center gap-2 relative z-10 bg-primary/10 self-start px-3 py-1 rounded-full border border-primary/20">
+<span class="material-symbols-outlined text-primary text-sm">trending_up</span>
+<span class="text-primary text-xs font-bold">+15% dari kemarin</span>
+</div>
+</div>
+</div>
+<!-- QR Section -->
+<div class="p-6 flex flex-col items-center">
+<h3 class="text-slate-300 text-sm font-semibold mb-4 uppercase tracking-widest flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">qr_code_2</span>
+                        Scan to Transfer THR
+                    </h3>
+<div class="relative p-4 bg-white rounded-3xl shadow-[0_0_30px_rgba(19,236,128,0.15)] group transition-transform hover:scale-[1.02]">
+<div class="size-56 bg-center bg-no-repeat bg-cover rounded-xl" data-alt="Modern QR code for digital wallet payment" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtv9IMuEL92HYXQP6L0mH9jbIc37-jtDrvHJxe4n6uEi0hQ4GPkRXFsIMPJoum6EpVxVgcPzSdE2GeM3FiNrnR-oxEdsV5sdrEUxHaJdFDrM0VvRYE34z46XPYWcDTQcd_5hif-wv2qNqC7afpiYrADpQLv9t8_3heDnowUGbCwOPZvASkqLWkT2bDzKODHUBlGk73auQuq8QiW_BH5YYuP9wl44abVCLFvOGjgRSwCS1ohdadSBPBN5sM3FGYqWTsEnDL34aC5mk");'>
+</div>
+<!-- Corner Accents for QR -->
+<div class="absolute top-0 left-0 size-8 border-t-4 border-l-4 border-primary rounded-tl-2xl"></div>
+<div class="absolute top-0 right-0 size-8 border-t-4 border-r-4 border-primary rounded-tr-2xl"></div>
+<div class="absolute bottom-0 left-0 size-8 border-b-4 border-l-4 border-primary rounded-bl-2xl"></div>
+<div class="absolute bottom-0 right-0 size-8 border-b-4 border-r-4 border-primary rounded-br-2xl"></div>
+</div>
+<p class="text-slate-500 text-xs text-center mt-6 px-10 italic">
+                        Supports: Dana, OVO, GoPay, and major Banking Apps
+                    </p>
+</div>
+<!-- Bottom Footer -->
+<div class="p-6 mt-auto">
+<button class="w-full py-4 bg-primary text-slate-900 font-bold rounded-xl flex items-center justify-center gap-2 hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">share</span>
+                        Bagikan Link THR
+                    </button>
+</div>
+</main>
+<footer class="mt-8 text-center pb-10">
+<p class="text-slate-500 text-sm font-medium">© 2024 Digital THR Card • Student Edition</p>
+</footer>
+</div>
+</div>
+</body></html>
